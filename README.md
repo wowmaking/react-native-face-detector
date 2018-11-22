@@ -46,8 +46,8 @@
 
 #### Both platforms
 Don't forget to setup `Firebase`:
-1. iOS[https://firebase.google.com/docs/ios/setup]
-2. Android[https://firebase.google.com/docs/android/setup]
+1. iOS [https://firebase.google.com/docs/ios/setup]
+2. Android [https://firebase.google.com/docs/android/setup]
 
 ## Usage
 ```javascript
@@ -70,7 +70,7 @@ class Screen extends React.Component {
   }
 
   handleFacesDetection = ({ faces, width, height, recordingTime, }) => {
-    // do whatever you want\
+    // do whatever you want
   }
 
   handleStartPress = () => {
@@ -100,9 +100,9 @@ FaceDetector contain setup options constants `FaceDetector.OPTIONS`
 
 | Name | Type | Example | Description |
 | --- | --- | --- | --- |
-| PERFOMANCE_MODE | `String` | `performanceMode: FaceDetector.OPTIONS.PERFOMANCE_MODE.FAST` | Face detection performance mode. Values: `FAST|ACCURATE`|
-| LANDMARK_MODE | `String` | `landmarkMode: FaceDetector.OPTIONS.LANDMARK_MODE.NONE` | Face detection landmark mode, declare that model must detect landmarks. Values: `ALL|NONE`|
-| CONTOUR_MODE | `String` | `contourMode: FaceDetector.OPTIONS.CONTOUR_MODE.NONE` | Face detection contour mode, declare that model must detect contours. Values: `ALL|NONE`|
-| LANDMARK_MODE | `String` | `classificationMode: FaceDetector.OPTIONS.LANDMARK_MODE.NONE` | Face detection classification mode, declare that model must detect opened eyes and smile. Values: `ALL|NONE`|
+| PERFOMANCE_MODE | `String` | `performanceMode: FaceDetector.OPTIONS.PERFOMANCE_MODE.FAST` | Face detection performance mode. Values: `FAST`, `ACCURATE`|
+| LANDMARK_MODE | `String` | `landmarkMode: FaceDetector.OPTIONS.LANDMARK_MODE.NONE` | Face detection landmark mode, declare that model must detect landmarks. Values: `ALL`, `NONE`|
+| CONTOUR_MODE | `String` | `contourMode: FaceDetector.OPTIONS.CONTOUR_MODE.NONE` | Face detection contour mode, declare that model must detect contours. Values: `ALL`, `NONE`|
+| LANDMARK_MODE | `String` | `classificationMode: FaceDetector.OPTIONS.LANDMARK_MODE.NONE` | Face detection classification mode, declare that model must detect opened eyes and smile. Values: `ALL`, `NONE`|
 
 ... (WIP)
