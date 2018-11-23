@@ -8,9 +8,10 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/wowmaking/react-native-face-detector.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qvick1pro' => 'g.volchetskiy@wowmaking.net' }
-  s.source           = { :git => 'https://github.com/wowmaking/react-native-face-detector.git, :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wowmaking/react-native-face-detector.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '3.0'
 
   s.source_files = 'RNFaceDetector/**/*'
 

@@ -1,7 +1,7 @@
 
 {
-  "name": "react-native-face-detector",
-  "version": "0.0.1-beta",
+  "name": "react-native-mlkit-face-detector",
+  "version": "0.0.1-beta2",
   "description": "",
   "main": "index.js",
   "scripts": {

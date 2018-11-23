@@ -1,9 +1,9 @@
 
-# react-native-face-detector
+# react-native-mlkit-face-detector
 
 ## Getting started
 
-`$ npm install react-native-face-detector --save`
+`$ npm install react-native-mlkit-face-detector --save`
 
 ### Installation
 
@@ -18,14 +18,14 @@
   pod 'Firebase/MLVision'
   pod 'Firebase/MLVisionFaceModel'
 
-	pod 'RNFaceDetector', :path=> '../node_modules/react-native-face-detector/ios'
+	pod 'RNFaceDetector', :path=> '../node_modules/react-native-mlkit-face-detector/ios'
 
 ```
 2. Add `$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)` to your project `Build Settings` -> `Library Search Paths`
 
 ##### Manualy (not tested)
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-face-detector` and add `RNFaceDetector.xcodeproj`
+2. Go to `node_modules` ➜ `react-native-mlkit-face-detector` and add `RNFaceDetector.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNFaceDetector.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)
 
@@ -36,12 +36,12 @@
   - Add `new RNFaceDetectorPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-face-detector'
-  	project(':react-native-face-detector').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-face-detector/android')
+  	include ':react-native-mlkit-face-detector'
+  	project(':react-native-mlkit-face-detector').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-mlkit-face-detector/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-face-detector')
+      compile project(':react-native-mlkit-face-detector')
   	```
 
 #### Both platforms
@@ -51,7 +51,7 @@ Don't forget to setup `Firebase`:
 
 ## Usage
 ```javascript
-import { FaceDetector, FaceDetectorCameraView, } from 'react-native-face-detector';
+import { FaceDetector, FaceDetectorCameraView, } from 'react-native-mlkit-face-detector';
 
 class Screen extends React.Component {
 
